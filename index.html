@@ -19,6 +19,7 @@
         }
         .container {
             padding: 20px;
+            text-align: center; /* Center align content within the container */
         }
         .product {
             background-color: #fff;
@@ -28,6 +29,12 @@
         }
         .product h2 {
             margin-top: 0;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto; /* Center align images */
         }
         footer {
             background-color: #222;
@@ -52,6 +59,10 @@
         <div class="product">
             <h2>Construction-Grade Gloves</h2>
             <p>Our gloves are designed to provide superior protection and durability for all your construction needs.</p>
+            <!-- Add images from S3 bucket here -->
+            <img src="https://ustabisyor-web-page.s3.me-central-1.amazonaws.com/images/UstaGroupImages/conveyor_gloves.jpg" alt="Image 1 Description">
+            <img src="https://ustabisyor-web-page.s3.me-central-1.amazonaws.com/images/UstaGroupImages/conveyor_gloves_7.jpg" alt="Image 2 Description">
+            <img src="https://ustabisyor-web-page.s3.me-central-1.amazonaws.com/images/UstaGroupImages/conveyor_gloves_10.jpg" alt="Image 3 Description">
         </div>
     </div>
     <footer>
