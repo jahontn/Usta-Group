@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #561717;
         }
         header {
             background-color: #333;
@@ -51,6 +51,16 @@
         .footer-item {
             margin: 10px 0;
         }
+        figcaption {
+            font-style: italic;
+            color: #565353;
+            text-align: center;
+            margin-top: 5px;
+            max-width: 600px; /* Limit the width of the caption */
+            padding: 10px; /* Add padding for better readability */
+            line-height: 1.5; /* Increase line height for better readability */
+            margin: 0 auto; /* Center the caption */
+        }
     </style>
 </head>
 <body>
@@ -63,9 +73,26 @@
             <h2>Construction-Grade Gloves</h2>
             <p>Our gloves are designed to provide superior protection and durability for all your construction needs.</p>
             <!-- Add images from S3 bucket here -->
-            <img src="https://ustabisyor-web-page.s3.me-central-1.amazonaws.com/images/UstaGroupImages/conveyor_gloves.jpg" alt="Image 1 Description">
-            <img src="https://ustabisyor-web-page.s3.me-central-1.amazonaws.com/images/UstaGroupImages/conveyor_gloves_7.jpg" alt="Image 2 Description">
-            <img src="https://ustabisyor-web-page.s3.me-central-1.amazonaws.com/images/UstaGroupImages/conveyor_gloves_10.jpg" alt="Image 3 Description">
+            <figure>
+                <img src="https://ustabisyor-web-page.s3.me-central-1.amazonaws.com/images/UstaGroupImages/sewing_gloves.jpg" alt="IMage sewing machines">
+                <figcaption>A production line with multiple automated knitting machines used to sew gloves.
+                            Each machine is equipped with spools of yarn, efficiently knitting the gloves 
+                            to ensure uniformity and quality. Completed gloves are collected in baskets, 
+                            ready for further processing or finishing. This setup enables high-speed production and consistent craftsmanship
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="https://ustabisyor-web-page.s3.me-central-1.amazonaws.com/images/UstaGroupImages/conveyor_gloves.jpg" alt="Image 1 Description">
+                <figcaption>Hand-shaped molds are cleaned and prepared</figcaption>
+            </figure>
+            <figure>
+                <img src="https://ustabisyor-web-page.s3.me-central-1.amazonaws.com/images/UstaGroupImages/conveyor_gloves_7.jpg" alt="Image 2 Description">
+                <figcaption>Image 2 Description</figcaption>
+            </figure>
+            <figure>
+                <img src="https://ustabisyor-web-page.s3.me-central-1.amazonaws.com/images/UstaGroupImages/conveyor_gloves_10.jpg" alt="Image 3 Description">
+                <figcaption>Image 3 Description</figcaption>
+            </figure>
         </div>
     </div>
     <footer>
